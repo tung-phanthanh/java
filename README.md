@@ -1,9 +1,9 @@
 # Java
-
+This including all source code java when I learned in FPT University and will continue to be added.
 ## You will find in this repo:
 
 ### PRO192(OOP) including:
-* Assignment (LuongMN)
+* Assignment (Teacher: LuongMN)
 * PE source code
 
 
