@@ -7,7 +7,6 @@ import java.util.List;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
 /**
  *
  * @author phtung
@@ -22,7 +21,7 @@ public class MyCoffee implements ICoffee {
                 continue;
             } else {
                 count++;
-            }    
+            }
         }
         return count;
     }
@@ -49,10 +48,10 @@ public class MyCoffee implements ICoffee {
                 }
             }
         };
-        
+
         Collections.sort(t.subList(0, 3), compare);
     }
-    
+
     public int getMaxIndex(List<Coffee> t) {
         int valueMax = t.get(0).getSize();
         int indexMax = 0;
